@@ -6,6 +6,7 @@
 <div align=center>
 <img src="image/1.gif" width=400 >
 <div align=left>
+	
 ## Overview
 This repo is based on [spinningup](https://github.com/openai/spinningup), sincerely grateful to it.
 

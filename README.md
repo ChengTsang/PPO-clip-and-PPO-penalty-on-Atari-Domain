@@ -16,18 +16,36 @@ I do these things:
 - Implement PPO algorithm on Atari domain(if you read spinningup carefully, or run the program, you will find the program don't match the Atari domain. Because the input vector isn't flattened.)
 
 
-Strength
-- This is the only open source of PPO-penalty
+Advantage
+- This may be the only open source of PPO-penalty
 - This program is very easy to configure.
 - This code is readable, more readable than baseline, and more suitable for beginners.
 
 References
-- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
-- [Emergence of Locomotion Behaviours in Rich Environments](https://arxiv.org/abs/1707.02286)
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347), Schulman et al. 2017
+- [Emergence of Locomotion Behaviours in Rich Environments](https://arxiv.org/abs/1707.02286),  Heess et al. 2017 
+- [High Dimensional Continuous Control Using Generalized Advantage Estimation](https://arxiv.org/abs/1506.02438), Schulman et al. 2016
 
 Blog
 - my blog on PPO
 - [mpi4py blog](https://www.jianshu.com/p/505ab84fe725)
+
+## Backgroud
+
+PPO is motivated by the same question as TRPO: how can we take the biggest possible improvement step on a policy using the data we currently have, without stepping so far that we accidentally cause performance collapse? Where TRPO tries to solve this problem with a complex second-order method, PPO is a family of first-order methods that use a few other tricks to keep new policies close to old. PPO methods are significantly simpler to implement, and empirically seem to perform at least as well as TRPO.
+
+There are two primary variants of PPO: PPO-Penalty and PPO-Clip.
+
+PPO-Penalty approximately solves a KL-constrained update like TRPO, but penalizes the KL-divergence in the objective function instead of making it a hard constraint, and automatically adjusts the penalty coefficient over the course of training so that it's scaled appropriately.
+
+PPO-Clip doesn't have a KL-divergence term in the objective and doesn't have a constraint at all. Instead relies on specialized clipping in the objective function to remove incentives for the new policy to get far from the old policy.
+
+Here, we'll focus only on PPO-Clip (the primary variant used at OpenAI).
+
+## Quick Facts
+- PPO is an on-policy algorithm.
+- PPO can be used for environments with either discrete or continuous action spaces.
+- The Spinning Up implementation of PPO supports parallelization with MPI.
 
 ## Installation Dependencies
 
@@ -95,6 +113,12 @@ function (so coefficient c1 is irrelevant), and we don’t use an entropy bonus.
 <div align=center>
 <img src="https://img-blog.csdnimg.cn/20181217212928214.png" width=35% height=35% div align="center" /> 
 <div align=left>
+
+References
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347), Schulman et al. 2017
+- [Emergence of Locomotion Behaviours in Rich Environments](https://arxiv.org/abs/1707.02286),  Heess et al. 2017 
+- [High Dimensional Continuous Control Using Generalized Advantage Estimation](https://arxiv.org/abs/1506.02438), Schulman et al. 2016
+
 
 
 

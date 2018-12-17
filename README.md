@@ -1,6 +1,8 @@
 # PPO-clip-and-PPO-penalty-on-Atari-Domain
 
-
+![](https://img.shields.io/badge/language-python-blue.svg) 
+![](https://img.shields.io/badge/license-MIT-000000.svg)
+![](https://codebeat.co/webhooks/github/pull_requests/94a77fb4-b070-4c07-a6a8-8294f90a5b36)
 
 ## Overview
 This repo is based on [spinningup](https://github.com/openai/spinningup), sincerely grateful to it.
@@ -83,7 +85,7 @@ function (so coefficient c1 is irrelevant), and we don’t use an entropy bonus.
 <div align=left>
 
 <div align=center>
-<img src="https://img-blog.csdnimg.cn/20181217212928214.png" width=50% height=50% div align="center" /> 
+<img src="https://img-blog.csdnimg.cn/20181217212928214.png" width=35% height=35% div align="center" /> 
 <div align=left>
 
 

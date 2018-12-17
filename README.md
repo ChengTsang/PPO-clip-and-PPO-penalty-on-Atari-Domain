@@ -1,3 +1,7 @@
+# PPO-clip-and-PPO-penalty-on-Atari-Domain
+
+
+
 ## Overview
 This repo is based on [spinningup](https://github.com/openai/spinningup), sincerely grateful to it.
 
@@ -42,13 +46,15 @@ mpi4py on windows [click here](https://blog.csdn.net/mengmengz07/article/details
 ```
 - Play with parallel (-np:set number of processings, take care of OOM!)
 ```
-mpiexec -np 4 python ppo.py
+	mpiexec -np 4 python ppo.py
 ```
 ## Algorithm
 The detail of PPO is the same as the original paper. you can have a look at my [bolg](https://mp.csdn.net/mdeditor/82421121#) to know the details. 
 Pseudo-code is shown below.
-<center>
-<img src="https://img-blog.csdnimg.cn/20181217211105351.png?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTY3OTQxMQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" width="75%" height="75%" />
+	
+<div align=center>
+<img src="https://img-blog.csdnimg.cn/20181217211105351.png" width=35% height=35% div align="center" /> 
+<div align=/center>
 
 PPO-clip and PPO-penalty's objective functions are below:
 <center>

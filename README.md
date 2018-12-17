@@ -54,7 +54,7 @@ Pseudo-code is shown below.
 	
 <div align=center>
 <img src="https://img-blog.csdnimg.cn/20181217211105351.png" width=35% height=35% div align="center" /> 
-<div align=/center>
+<div align=\center>
 
 PPO-clip and PPO-penalty's objective functions are below:
 <center>

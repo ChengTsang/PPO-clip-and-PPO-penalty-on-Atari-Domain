@@ -3,9 +3,9 @@
 ![](https://img.shields.io/badge/language-python-blue.svg) 
 ![](https://img.shields.io/badge/license-MIT-000000.svg)
 ![](https://codebeat.co/webhooks/github/pull_requests/94a77fb4-b070-4c07-a6a8-8294f90a5b36)
-
+<div align=center>
 <img src="image/1.gif" width=400 >
-
+<div align=left>
 ## Overview
 This repo is based on [spinningup](https://github.com/openai/spinningup), sincerely grateful to it.
 

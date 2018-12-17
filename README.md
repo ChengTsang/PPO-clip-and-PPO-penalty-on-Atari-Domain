@@ -4,6 +4,9 @@
 ![](https://img.shields.io/badge/license-MIT-000000.svg)
 ![](https://codebeat.co/webhooks/github/pull_requests/94a77fb4-b070-4c07-a6a8-8294f90a5b36)
 
+
+![](https://github.com/ChengTsang/PPO-clip-and-PPO-penalty-on-Atari-Domain/tree/master/image/1.gif)  
+
 ## Overview
 This repo is based on [spinningup](https://github.com/openai/spinningup), sincerely grateful to it.
 

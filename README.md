@@ -30,10 +30,14 @@ Blog
 
 ## Installation Dependencies
 
-- python3
-- tensorflow >= 1.8.0
-- mpi4py(parallel train and play)
-- gym
+- cloudpickle==0.5.2
+- gym>=0.10.8
+- matplotlib
+- numpy
+- pandas
+- scipy
+- tensorflow>=1.8.0
+- tqdm
 
 ## How to Install
 ```

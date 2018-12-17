@@ -27,7 +27,7 @@ References
 - [High Dimensional Continuous Control Using Generalized Advantage Estimation](https://arxiv.org/abs/1506.02438), Schulman et al. 2016
 
 Blog
-- my blog on PPO
+- my [blog](https://blog.csdn.net/weixin_41679411/article/details/82421121) on PPO
 - [mpi4py blog](https://www.jianshu.com/p/505ab84fe725)
 
 ## Backgroud
@@ -114,7 +114,7 @@ function (so coefficient c1 is irrelevant), and we don’t use an entropy bonus.
 <img src="https://img-blog.csdnimg.cn/20181217212928214.png" width=35% height=35% div align="center" /> 
 <div align=left>
 
-References
+## References
 - [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347), Schulman et al. 2017
 - [Emergence of Locomotion Behaviours in Rich Environments](https://arxiv.org/abs/1707.02286),  Heess et al. 2017 
 - [High Dimensional Continuous Control Using Generalized Advantage Estimation](https://arxiv.org/abs/1506.02438), Schulman et al. 2016

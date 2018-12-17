@@ -8,7 +8,7 @@
 This repo is based on [spinningup](https://github.com/openai/spinningup), sincerely grateful to it.
 
 I do these things:
-- Implement PPO-penalty. You will find that neither [spinningup](https://github.com/openai/spinningup) nor [baseline](https://github.com/openai/baselines) only implements PPO-penalty.  Although PPO-penalty results are not as good as PPO-clip, this algorithm is meaningful as a good baseline.
+- Implement PPO-penalty. You will find that neither [spinningup](https://github.com/openai/spinningup) nor [baseline](https://github.com/openai/baselines) implements PPO-penalty.  Although PPO-penalty results are not as good as PPO-clip, this algorithm is meaningful as a good baseline.
 - Implement PPO algorithm on Atari domain(if you read spinningup carefully, or run the program, you will find the program don't match the Atari domain. Because the input vector isn't flattened.)
 
 

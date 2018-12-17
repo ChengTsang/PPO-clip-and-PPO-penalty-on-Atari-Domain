@@ -111,7 +111,7 @@ function (so coefficient c1 is irrelevant), and we don’t use an entropy bonus.
 <div align=left>
 
 <div align=center>
-<img src="https://img-blog.csdnimg.cn/20181217212928214.png" width=35% height=35% div align="center" /> 
+<img src="https://img-blog.csdnimg.cn/20181217212928214.png" width=42% height=42% div align="center" /> 
 <div align=left>
 
 ## References
